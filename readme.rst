@@ -1,3 +1,18 @@
+## Webcam Project - Capture and Save Multiple Images in MySQL using CodeIgniter
+
+![Webcam Project Logo](project_logo.png)
+
+The Webcam Project is a web application developed using the CodeIgniter framework, designed to enable users to capture multiple images through their webcams and securely store them in a MySQL database. This project provides a user-friendly interface for users to interact with their webcams and manage the captured images efficiently.
+
+### Features
+
+- Multiple Image Capture: Users can capture multiple images with ease by clicking a dedicated capture button. The project ensures real-time responsiveness, allowing users to capture moments quickly and effortlessly.
+
+- CodeIgniter MVC Architecture: The project follows the Model-View-Controller (MVC) architectural pattern, ensuring clean code separation and maintainability.
+
+- Secure Database Storage: CodeIgniter's powerful database libraries are utilized to securely store the captured images in a MySQL database. The application focuses on data integrity and implements image compression techniques to optimize storage.
+
+
 ###################
 What is CodeIgniter
 ###################
@@ -36,11 +51,35 @@ such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
 ************
-Installation
+Codeigniter Installation
 ************
 
 Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
 of the CodeIgniter User Guide.
+
+### Installation and Setup 
+
+1. Clone the repository:
+
+```
+git clone https://github.com/MeghaRao15/WebCam_Mini_Project.git
+```
+
+2. Configure Database: Create a MySQL database and import the provided SQL file (`database.sql`) to set up the required table for storing images.
+
+3. Update Configuration: Modify the `application/config/database.php` file with your database credentials.
+
+4. Deploy: Upload the project files to your web server or use a local development environment (e.g., XAMPP, WAMP, etc.).
+
+### Usage
+
+1. Access the application through your web browser.
+
+2. Click the "Allow" button to grant the application access to your webcam.
+
+3. Use the capture button to capture multiple images.
+
+4. The captured images will be automatically saved to the MySQL database.
 
 *******
 License
